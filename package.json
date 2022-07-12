@@ -7,5 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "css-tree": "^2.1.0",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "read-css": "^0.3.0"
+  }
 }

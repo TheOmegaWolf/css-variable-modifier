@@ -1,0 +1,47 @@
+body{
+	/* Variable:Ignore */
+    font-size: 20px;
+    color : red;
+}
+  
+.a{
+	/* Variable:Ignore */
+  font-size : 15px;
+  background-color : blue;
+}
+
+.b{
+  font-size : 15em;
+  background-color : blue;
+}
+
+.c{
+  font-size : 15rem;
+  background-color : blue;
+}
+
+.d{
+	/* Variable:Ignore */
+  font-size: 18px;
+  background-color: aliceblue;
+}
+
+.e{
+  font-size: 17rem;
+  background-color: yellowgreen;
+}
+.f{
+  font-size: var(--size15em);
+}
+@media (hover: hover) {
+  .a{
+    color : red
+  }
+  .b{
+    font-size: 15rem;
+  }
+  .c{
+	/* Variable:Ignore */
+    font-size: 17px;
+  }
+}
