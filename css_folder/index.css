@@ -1,16 +1,16 @@
 body{
-  font-size: var(--fsize20);
+font-size : 20px;
   color : red;
 }
 
 .a{
-font-size : var(--fsize15);
+font-size : 15px;
 background-color : blue;
 margin: 15px;
 }
 
 .b{
-font-size : var(--fsize15em);
+font-size : 15em;
 background-color : blue;
 margin-left: 15px;
 }
@@ -31,6 +31,7 @@ font-size: 17rem;
 background-color: yellowgreen;
 }
 .f{
+/* Variable:Ignore */
 font-size: var(--fsize15em);
 }
 @media (hover: hover) {
