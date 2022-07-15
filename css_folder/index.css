@@ -1,47 +1,46 @@
 body{
-	/* Variable:Ignore */
-    font-size: 20px;
-    color : red;
+  font-size: var(--fsize20);
+  color : red;
 }
-  
+
 .a{
-	/* Variable:Ignore */
-  font-size : 15px;
-  background-color : blue;
+font-size : var(--fsize15);
+background-color : blue;
+margin: 15px;
 }
 
 .b{
-  font-size : 15em;
-  background-color : blue;
+font-size : var(--fsize15em);
+background-color : blue;
+margin-left: 15px;
 }
 
 .c{
-  font-size : 15rem;
-  background-color : blue;
+font-size : 15rem;
+background-color : blue;
 }
 
 .d{
-	/* Variable:Ignore */
-  font-size: 18px;
-  background-color: aliceblue;
+/* Variable:Ignore */
+font-size: 18px;
+background-color: aliceblue;
 }
 
 .e{
-  font-size: 17rem;
-  background-color: yellowgreen;
+font-size: 17rem;
+background-color: yellowgreen;
 }
 .f{
-  font-size: var(--size15em);
+font-size: var(--fsize15em);
 }
 @media (hover: hover) {
-  .a{
-    color : red
-  }
-  .b{
-    font-size: 15rem;
-  }
-  .c{
-	/* Variable:Ignore */
-    font-size: 17px;
-  }
+.a{
+  color : red
+}
+.b{
+  font-size: 15rem;
+}
+.c{
+  font-size: 10px;
+}
 }

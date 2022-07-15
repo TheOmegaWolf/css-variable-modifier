@@ -13,7 +13,7 @@ const addline = (linenums,rule) =>{
         })
     }
 }
-fs.readdir('./css_folder', (err, files) =>{
+fs.readdir(fileDir, (err, files) =>{
     if(err) throw err;
     else{
         files.forEach((file) => {
@@ -42,7 +42,6 @@ fs.readdir('./css_folder', (err, files) =>{
                     let infoArr = (info.split('\n'))
                     for( let i = 0;i<infoArr.length;i++){
                         if(linenums.includes(i)){
-                            console.log(infoArr[i])
                             if(!infoArr[i].includes('Variable:Ignore'))
                             infoArr[i] = `\t/* Variable:Ignore */\r\n${infoArr[i]}`
                             console.log(infoArr[i])
@@ -54,12 +53,12 @@ fs.readdir('./css_folder', (err, files) =>{
                     console.log()
                     console.log('---------------------------------------------------------------')
                     let str = infoArr.join('\n');
-                    fs.writeFile(fileDir+file, str, (err, success)=>{
-                        if(err)throw err;
-                        else{
-                            console.log('done')
-                        }
-                    });
+                    // fs.writeFile(fileDir+file, str, (err, success)=>{
+                    //     if(err)throw err;
+                    //     else{
+                    //         console.log('done')
+                    //     }
+                    // });
                 })
 
             } )

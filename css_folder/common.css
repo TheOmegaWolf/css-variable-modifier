@@ -174,7 +174,6 @@ body,html, #root{
     z-index: 2;
 }
 .hxgnIcn{
-	/* Variable:Ignore */
 	font-size: 13px;
     margin-top: 10px;
     color: var(--hexFntClr);
@@ -255,11 +254,6 @@ body,html, #root{
     height: 100px;
 }
 .hexClipTxt{
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
     font-size: 16px;
     color: #fff;
     transform: translateY(7px);
@@ -373,19 +367,9 @@ body,html, #root{
 }
 .rankTxt{
     color: #7a84bb;
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
     font-size: 10px;
 }
 .rankNumTxt{
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
     font-size: 32px;
 }
 .expBar{
@@ -407,22 +391,12 @@ body,html, #root{
     z-index: 2;
     transform: skew(-30deg);
     top: 8px;
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
     right: 25px; font-size: 10px;
 }
 .crtdTxt{
     position: absolute;
     top: -15px;
     left: 110px;
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
     font-size: 10px;
     color: #6ba2c3;
 }
@@ -447,11 +421,6 @@ body,html, #root{
 }
 .optionTxt{
     transform: skew(+30deg) translateY(1px);
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
     font-size: 11px;
     color: #1984DE;
 }
@@ -504,32 +473,17 @@ body,html, #root{
     left: 60px;
     transform: skew(30deg);
     bottom: 20px;
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
     font-size: 12px;
     color: #11a2e3;
   }
   .scoreTitle,.topScorersTxt{
       text-transform: uppercase;
       text-shadow: 0px 0px 10px rgba(24, 150, 255, 1);
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
       font-size: 14px;
       color: #8bb5d7;
       transform: translateX(-15px);
   }
   .scoreValue{
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
-	/* Variable:Ignore */
       font-size: 50px;
       color: #fff;
       font-family: 'LatoBold';
